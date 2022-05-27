@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    background-color: #23252C;
+    color: #fff;
+    width: 550px;
+    height: 868px;
+    font-weight: 400;
+}
+
+.container {
+    background: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px 115px;
+    padding: 0 35px;
+}
+
+/*Info*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > img {
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(images/cup-of-matcha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myName {
+    margin-bottom: 0; 
+}
+
+.myTitle {
+    margin: 0;
+    color: #F3BF99;
+    font-size: 12.8px;
+}
+
+.myWebsite {
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+.btn__email {
+    width: 247px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 11px;
+}
+
+/*About Interest Container*/
+
+.about__interests--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*About*/
+
+.about__container{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 25px; 
+}
+
+
+/*Interests*/
+
+.interests__container{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+
+/*Footer*/
+
+.footer {
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19.5px 49.5px;
+    margin-top: 25px; 
+}
+
+.footer > img {
+    width: 25px;
+    height: 25px;
+}
